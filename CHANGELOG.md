@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.37.0](https://github.com/career-ops-hq/career-ops/compare/career-ops-v1.36.0...career-ops-v1.37.0) (2026-10-10)
+
+
+### Features
+
+* add Assessment lifecycle and follow-up status controls ([#4317](https://github.com/career-ops-hq/career-ops/issues/4317)) ([8cb0161](https://github.com/career-ops-hq/career-ops/commit/8cb0161f73d1e6012976bdf2ba79dee6b91f40d1))
+* add strong local listing identity schema ([#4642](https://github.com/career-ops-hq/career-ops/issues/4642)) ([b19d16c](https://github.com/career-ops-hq/career-ops/commit/b19d16cb1b977572c805fab93bd0d1dd688b8213))
+* **oferta:** add the Verdict (lead) block the report contract has been missing ([#3960](https://github.com/career-ops-hq/career-ops/issues/3960)) ([a2213ab](https://github.com/career-ops-hq/career-ops/commit/a2213abc39483d125a2631d51bf9849b116439ae))
+* **reply-watch:** review local status proposals ([#4645](https://github.com/career-ops-hq/career-ops/issues/4645)) ([f9ae4a0](https://github.com/career-ops-hq/career-ops/commit/f9ae4a0dc81eccf3e6a8d5783eb5acf8ce14218b))
+* **web:** ATS keyword coverage on the report view ([#4579](https://github.com/career-ops-hq/career-ops/issues/4579)) ([886b834](https://github.com/career-ops-hq/career-ops/commit/886b834a9989e449587cf1ae9ae2ab39e50cab1e))
+
+
+### Bug Fixes
+
+* **cli:** --help was discarded, so the script ran instead ([#3998](https://github.com/career-ops-hq/career-ops/issues/3998)) ([f3357ef](https://github.com/career-ops-hq/career-ops/commit/f3357efe2701b0573d4132b9e8cc2e74a1c72605))
+* **doctor:** report a title_filter positive its own negatives veto ([#4882](https://github.com/career-ops-hq/career-ops/issues/4882)) ([2532155](https://github.com/career-ops-hq/career-ops/commit/253215598b893624f04e233f11ac9e778282d93b)), closes [#4873](https://github.com/career-ops-hq/career-ops/issues/4873)
+* **openrouter:** reset a model's 429 count when it answers, so only consecutive 429s blacklist it ([#4913](https://github.com/career-ops-hq/career-ops/issues/4913)) ([e46e656](https://github.com/career-ops-hq/career-ops/commit/e46e656d1a0f8f76a93ab210c2561e65dbd62735))
+
 ## [1.36.0](https://github.com/career-ops-hq/career-ops/compare/career-ops-v1.35.0...career-ops-v1.36.0) (2026-10-10)
 
 
